@@ -1,0 +1,59 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.product-second-div{
+    border: 1px solid lightgray;
+    margin: 8px 0px;
+    padding: 10px 150px;
+    border-radius: 8px;
+
+}
+.add-to-bag-btn{
+    width: 150px;
+    height: 45px;
+    border-radius: 4px;
+    border: 2px solid #0c8542;
+    background-color: white;
+    color: #0c8542;
+    font-size: 15px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+.add-to-bag-btn:hover{
+    background-color: #0c8542;
+    color: white;
+    transition: background-color 0.3s;
+}
+.clicked{
+    background-color: white;
+    color:#0c8542;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    
+}
+.clicked:hover{
+background-color: white;
+color: #0c8542;
+transition: background-color 0.5s;
+}
+.inc,.dec{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.qty{
+    width: 50%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #0c8542;
+    border-radius: 5px;
+    margin: auto;
+    cursor: not-allowed;
+}
